@@ -28,7 +28,31 @@ namespace OOP_nakladak
             InitializeComponent();
 
             jedna = new nakladak();
-            jedna.= 
+            jedna.Name = "jedna";
+
+            dva = new nakladak();
+            dva.Name = "dva";
         }
+
+        public void Zobraz(nakladak jedna, TextBox textBox)
+        {
+            nakladakjedna.Text = jedna.Name + "\n";
+            nakladakjedna.Text += "Nosnot: " + jedna.Nosnost.ToString() + "\n";
+            nakladakjedna.Text += "Naklad: " + jedna.Naklad.ToString() + "\n";
+            nakladakjedna.Text += "Objemnadrze" + jedna.Objemnadrze.ToString() + "\n";
+            nakladakjedna.Text += "Spotrebapaliva" + jedna.Spotrebapaliva.ToString() + "\n";
+            nakladakjedna.Text += "Celkovavzdalenost" + jedna.Celkovavzdalenost.ToString() + "\n";
+        }
+        public void Zobraz(nakladak dva, TextBox textBox)
+        {
+            nakladakdva.Text = dva.Name + "\n";
+            nakladakdva.Text += "Nosnot: " + dva.Nosnost.ToString() + "\n";
+            nakladakdva.Text += "Naklad: " + dva.Naklad.ToString() + "\n";
+            nakladakdva.Text += "Objemnadrze" + dva.Objemnadrze.ToString() + "\n";
+            nakladakdva.Text += "Spotrebapaliva" + dva.Spotrebapaliva.ToString() + "\n";
+            nakladakdva.Text += "Celkovavzdalenost" + dva.Celkovavzdalenost.ToString() + "\n";
+        }
+
+        private void Button
     }
 }

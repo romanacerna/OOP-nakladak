@@ -7,11 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="28,24,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="177" Width="277"/>
         <Button Content="Nosnost" HorizontalAlignment="Left" Margin="28,217,0,0" VerticalAlignment="Top" Height="34" Width="55"/>
         <Button Content="Objem" HorizontalAlignment="Left" Margin="125,217,0,0" VerticalAlignment="Top" Height="34" Width="52"/>
         <Button Content="Spotřeba" HorizontalAlignment="Left" Margin="210,217,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
         <Button Content="Celkem" HorizontalAlignment="Left" Margin="29,277,0,0" VerticalAlignment="Top" Height="33" Width="54"/>
+        <Button Content="Nosnost" HorizontalAlignment="Left" Margin="448,217,0,0" VerticalAlignment="Top" Width="54" Height="34"/>
+        <Button Content="Objem" HorizontalAlignment="Left" Margin="584,217,0,0" VerticalAlignment="Top" Height="34" Width="57"/>
+        <Button Content="Spotřeba" HorizontalAlignment="Left" Margin="707,217,0,0" VerticalAlignment="Top" Height="34" Width="52"/>
+        <Button Content="Celkem" HorizontalAlignment="Left" Margin="448,277,0,0" VerticalAlignment="Top" Height="33" Width="54"/>
+        <TextBox Name="nakladakjedna" HorizontalAlignment="Left" Margin="28,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="239" Height="182"/>
+        <TextBox Name="nakladakdva" HorizontalAlignment="Left" Margin="448,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="311" Height="182"/>
 
     </Grid>
 </Window>

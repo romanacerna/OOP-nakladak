@@ -12,7 +12,7 @@ namespace OOP_nakladak
         public int Nosnost { get; set; }
         public int Naklad { get; set; }
         public int Objemnadrze { get; set; }
-        public int Sotrebapaliva { get; set; }
+        public int Spotrebapaliva { get; set; }
         public int Celkovavzdalenost { get; set; }
 
         public nakladak()
@@ -20,7 +20,7 @@ namespace OOP_nakladak
             Nosnost = 66;
             Naklad = 100;
             Objemnadrze = 70;
-            Sotrebapaliva = 150;
+            Spotrebapaliva = 150;
             Celkovavzdalenost = 156;
         }
     }
